@@ -11,7 +11,7 @@ public class CustomerTest {
 		Customer customer = new Customer();
 		
 		customer.setForename("Dave");
-		assertEquals("Dav", customer.getForename());
+		assertEquals("Dave", customer.getForename());
 	}
 	
 }
