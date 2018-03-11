@@ -22,8 +22,14 @@
 	    <version>1.0.2.Final</version>
 	    <scope>provided</scope>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+	<dependency>
+	    <groupId>org.jacoco</groupId>
+	    <artifactId>jacoco-maven-plugin</artifactId>
+	    <version>0.8.0</version>
+	</dependency>	
   </dependencies>
   <build>
-    <finalName>JspExample</finalName>
+    <finalName>JavaRevision</finalName>
   </build>
 </project>
