@@ -12,6 +12,7 @@ public class CodalityLessons {
 		rotateArrayWithCollections(intArray, 3);
 	}
 	
+	//Binary gap
 	public static int getMaxGapLEngth(int n) {
 		String[] stringArray = Integer.toBinaryString(n).split("[1]");
 		int maxLength = 0;
@@ -19,7 +20,7 @@ public class CodalityLessons {
 		for(String str : stringArray) {
 			if(str.length() > maxLength) {
 				maxLength=str.length();
-			}
+			} 
 		}
 		
 		//String max = Collections.max(Str, Comparator.comparing(s -> s.length()));
