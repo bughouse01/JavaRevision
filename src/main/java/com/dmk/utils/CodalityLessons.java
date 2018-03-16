@@ -9,7 +9,7 @@ public class CodalityLessons {
 		
 		int[] intArray = {3,8,9,7,6};
 		
-		rotateArray(intArray, 3);
+		rotateArrayWithCollections(intArray, 3);
 	}
 	
 	public static int getMaxGapLEngth(int n) {
@@ -29,7 +29,7 @@ public class CodalityLessons {
 		return maxLength;
 	}
 	
-	public static int[] rotateArray(int[] A, int K) {
+	public static int[] rotateArrayWithCollections(int[] A, int K) {
 
 		Integer[] arr = Arrays.stream(A).boxed().toArray(Integer[]::new);
 		Collections.rotate(Arrays.asList(arr), K);
